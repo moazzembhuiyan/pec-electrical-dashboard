@@ -37,12 +37,12 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "autoprefixer": "^10.5.4",
+    "autoprefixer": "^10.6.1",
     "eslint": "^8",
     "eslint-config-next": "^16.4.2",
-    "postcss": "^8",
+    "postcss": "^8.5.30",
     "prettier": "^3.4.2",
     "prettier-plugin-tailwindcss": "^0.6.10",
-    "tailwindcss": "^4.3.3"
+    "tailwindcss": "^3.4.1"
   }
 }
