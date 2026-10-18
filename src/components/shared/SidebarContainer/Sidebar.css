@@ -1,0 +1,62 @@
+.sidebar-menu > .ant-menu-item,
+.sidebar-menu .ant-menu-submenu {
+  @apply !rounded-lg !border-none bg-white text-base font-medium !shadow-none;
+}
+
+.sidebar-menu .ant-menu-submenu {
+  @apply mx-auto w-[97%];
+}
+
+.sidebar-menu .ant-menu-sub li {
+  padding-left: 40px !important;
+  transition: none !important;
+}
+
+.ant-menu-title-content {
+  transition: none !important;
+}
+
+/* ========== Selected Item Styling ========== */
+.sidebar-menu .ant-menu-item-selected {
+  background-color: #f89e36 !important; /* sky-500 */
+  color: white !important;
+}
+
+.sidebar-menu .ant-menu-item-selected svg {
+  color: white !important;
+}
+
+.sidebar-menu .ant-menu-item-selected .ant-menu-title-content {
+  color: white !important;
+}
+
+/* Submenu selected */
+.sidebar-menu .ant-menu-submenu-selected > .ant-menu-submenu-title {
+  color: #f89e36 !important;
+}
+
+.sidebar-menu .ant-menu-submenu-selected > .ant-menu-submenu-title svg {
+  color: #f89e36 !important;
+}
+
+/* Hover */
+.sidebar-menu .ant-menu-item:hover,
+.sidebar-menu .ant-menu-submenu-title:hover {
+  background-color: #f89e36 !important;
+  color: white !important;
+}
+
+.sidebar-menu .ant-menu-item:hover svg,
+.sidebar-menu .ant-menu-submenu-title:hover svg {
+  color: white !important;
+}
+
+.sidebar-menu .ant-menu-item:hover .ant-menu-title-content,
+.sidebar-menu .ant-menu-submenu-title:hover .ant-menu-title-content {
+  color: white !important;
+}
+
+/* Remove default blue underline / border */
+.sidebar-menu .ant-menu-item-selected::after {
+  display: none !important;
+}
